@@ -7,15 +7,22 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 
 
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+  
+
   ],
   imports: [
     BrowserModule,
     MatFormFieldModule,
     MatSelectModule,
     MatBottomSheetModule,
+    
+    
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
