@@ -5,7 +5,9 @@ import { AppComponent } from './app.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
-
+import { MatInputModule } from '@angular/material/input';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -20,7 +22,9 @@ import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
     MatFormFieldModule,
     MatSelectModule,
     MatBottomSheetModule,
-    
+    MatInputModule,
+    BrowserAnimationsModule,
+    MatButtonModule
     
   
   ],

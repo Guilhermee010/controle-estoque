@@ -1,6 +1,5 @@
 body{
-    width: 350px;
-    margin: 0 auto;
-    padding: 50px;
     background-color: #cacaca;
 }
+html, body { height: 100%; }
+body { margin:0; font-family: Roboto, "Helvetica Neue", sans-serif; }
